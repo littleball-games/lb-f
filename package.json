@@ -1,0 +1,23 @@
+{
+  "name": "lb-f",
+  "version": "1.0.0",
+  "description": "A collection of functional programming functions",
+  "main": "entry.js",
+  "esnext": "lib/f.mjs",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "functional",
+    "programming",
+    "lamda"
+  ],
+  "author": "Matt Gale",
+  "licence": "MIT",
+  "devDependencies": {
+    "ava": "^0.23.0"
+  },
+  "dependencies": {
+    "@std/esm": "^0.12.4"
+  }
+}
