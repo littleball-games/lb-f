@@ -1,5 +1,7 @@
 # lb-f
 
+[![CircleCI](https://circleci.com/gh/littleball-games/lb-f.svg?style=svg)](https://circleci.com/gh/littleball-games/lb-f)
+
 A collection of functional programming functions
 
 ## Installation
