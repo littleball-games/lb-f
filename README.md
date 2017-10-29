@@ -10,7 +10,7 @@ A collection of functional programming functions
 
 ## Usage
 
-```
+```js
 // ES5
 const {curry} = require('lb-f')
 
