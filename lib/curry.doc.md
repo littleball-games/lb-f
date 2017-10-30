@@ -43,10 +43,10 @@ const add = curry((a, b) => a + b)
 // (...remainingArguments) => curry((a, b) => a + b, ...remainingArguments)
 
 const add1 = add(1)
-// add(1) = (...remainingArguments) => curry((a, b) => a + b, 1, ...remainingArguments)
+// add(1) = (...remainingArguments) => curry(b => 1 + b, ...remainingArguments)
 
 const result = add1(5)
-// result = curry((a, b) => a + b, 1, 5)
+// result = curry(b) => 1 + b, 5)
 //  = (1, 5) => 1 + 5
 //  = 1 + 5
 //  = 6
