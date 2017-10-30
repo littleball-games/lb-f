@@ -14,7 +14,7 @@ A collection of functional programming functions
 // node modules
 const {curry} = require('lb-f')
 
-// ES2016+ modules
+// ES2015 modules
 import {curry} from 'lb-f'
 
 // create a standard function
