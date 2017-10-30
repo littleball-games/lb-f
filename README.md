@@ -10,11 +10,11 @@ A collection of functional programming functions
 
 ## Usage
 
-```js
-// ES5
+```javascript
+// node modules
 const {curry} = require('lb-f')
 
-// ES2016+
+// ES2016+ modules
 import {curry} from 'lb-f'
 
 // create a standard function
