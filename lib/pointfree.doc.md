@@ -1,6 +1,6 @@
 # pointfree
 
-Pointfree takes a string and optional integer. The string should be a method name on an existing object. The integer specifies the arity of the method (the number of expected arguments) and defaults to 1. It returns a curried function that accepts the specified number of arguments followed by the object containing the method. After all parameters are received it will call the method with the provided arguments.
+Pointfree takes a string and optional integer. The string should be a method name on an existing object. The integer specifies the arity of the method (the number of expected arguments) and defaults to 1. It returns a curried function that accepts the specified number of arguments followed by the object containing the method. After all parameters are received it will call the method with the provided arguments and return the result.
 
 ```javascript
 
