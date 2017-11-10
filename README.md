@@ -1,6 +1,7 @@
 # lb-f
 
 [![CircleCI](https://circleci.com/gh/littleball-games/lb-f.svg?style=svg)](https://circleci.com/gh/littleball-games/lb-f)
+[![Standard](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com/)
 
 A collection of functional programming functions
 
@@ -10,11 +11,11 @@ A collection of functional programming functions
 
 ## Usage
 
-```js
-// ES5
+```javascript
+// node modules
 const {curry} = require('lb-f')
 
-// ES2016+
+// ES2015 modules
 import {curry} from 'lb-f'
 
 // create a standard function
